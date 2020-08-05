@@ -1,0 +1,21 @@
+.book-form {
+  width: 100%;
+
+  &__label {
+    display: block;
+  }
+
+  &__input {
+    padding: 0.5rem 1rem;
+    font-family: inherit;
+    width: 100%;
+  }
+}
+
+.form-group {
+  margin-bottom: 3rem;
+
+  &:last-child {
+    margin-bottom: 5rem;
+  }
+}
