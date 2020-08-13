@@ -1,0 +1,29 @@
+.footer {
+  height: 10rem;
+  color: $color-grey-dark-1;
+  background-color: $color-grey-light-2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-top: 1px solid #d6d6d6;
+
+  &__social {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  &__link {
+    color: $color-grey-dark-1;
+  }
+
+  &__icon {
+    cursor: pointer;
+
+    &--heart {
+      color: $color-red;
+      margin: 0 0.5rem;
+    }
+  }
+}
